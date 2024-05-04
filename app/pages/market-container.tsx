@@ -9,7 +9,7 @@ const MarketContainer: React.FC = () => {
                     <source src="./videos/roadmap-video.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
-                <div className="relative z-10">
+                <div className="relative">
                     <div className='w-full md:flex flex-row bg-dark-grey mb-10'>
                         <div className='m-10 pt-8 md:pt-0'>
                             <h1 className="text-2xl mb-4  text-white monument-extended">
@@ -58,7 +58,7 @@ const MarketContainer: React.FC = () => {
                                 and users, paving the way for unprecedented possibilities.
                             </p>
                         </div>
-                        <img className='md:w-72 w-full' src="./images/linear-image.png" alt="" />
+                        <img className='md:w-72 w-full' src="./images/crypto-image.png" alt="" />
                     </div>
                 </div>
                 <Footer />

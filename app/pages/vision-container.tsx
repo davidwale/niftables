@@ -24,7 +24,7 @@ const VisionContainer: React.FC = () => {
                 </span>
                 </h1>
                 <span>
-                    <img className='h-28 w-24 top-40 left-56 relative md:flex hidden' src='./images/Vector.png' alt='' />
+                    <img className='top-20 left40 relative md:flex hidden' src='./images/creon-logo-img.png' alt='' />
                 </span>
             </div>
             <section className='text-white md:mt-48 md:ml-44 w-full'>

@@ -33,7 +33,7 @@ const TokenContainer: React.FC = () => {
                     <p className='text-sm ml-8 mb-4 bg-clip-text  text-center sm:text-left text-transparent gradient-text satoshi-bold'>
                         Driving Income and growth through decentralization
                     </p>
-                <img src='./images/token-image.png' alt='' />
+                <img src='./images/revenue-image.png' alt='' />
                 <p className='text-xs text-white text-center sm:text-left ml-8 mt-8 satoshi-regular'>
                     CREON NFT and token holders are integral 
                     participants in the profit-sharing from our  
@@ -53,7 +53,7 @@ const TokenContainer: React.FC = () => {
                     <p className='text-sm ml-8 mb-9 bg-clip-text text-center sm:text-left text-transparent gradient-text satoshi-bold'>
                         Driving the future of AI innovation
                     </p>
-                <img src='./images/token-image.png' alt='' />
+                <img src='./images/launchpad-image.png' alt='' />
                 <p className='text-xs text-white ml-8 mt-8 text-center sm:text-left satoshi-regular'>
                     The CREON AI launched an essential 
                     component of our initiative, represents a 
