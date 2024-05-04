@@ -10,7 +10,7 @@ export default function Home() {
     // 
     <div className="bg-black">
       <Navbar />
-      <div className="px-40">
+      <div className="px-10 lg:px-40">
       <TopContainer />
       <SecondContainer />
       <VisionContainer />

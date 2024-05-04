@@ -4,14 +4,14 @@ import Footer from "../components/footer";
 const MarketContainer: React.FC = () => {
     return (
         <div>
-            <div className="relative px-40 pt-20">
+            <div className="relative px-10 lg:px-40 pt-20">
                 <video autoPlay loop muted className="absolute inset-0 w-full h-full object-cover opacity-20">
                     <source src="./videos/roadmap-video.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
                 <div className="relative z-10">
-                    <div className='w-full flex flex-row bg-dark-grey mb-10'>
-                        <div className='m-10'>
+                    <div className='w-full md:flex flex-row bg-dark-grey mb-10'>
+                        <div className='m-10 pt-8 md:pt-0'>
                             <h1 className="text-2xl mb-4  text-white monument-extended">
                                 AI PROSPECTS, MARKET SIZE,AND DEVELOPMENT RACE
                             </h1>
@@ -24,10 +24,10 @@ const MarketContainer: React.FC = () => {
                                 various sectors such as healthcare, finance, and transportation.
                             </p>
                         </div>
-                        <img className='w-72' src="./images/ai-image.png" alt="" />
+                        <img className='md:w-72 w-full' src="./images/ai-image.png" alt="" />
                     </div>
-                    <div className='w-full flex flex-row bg-dark-grey mb-10'>
-                        <div className='m-10'>
+                    <div className='w-full md:flex flex-row bg-dark-grey mb-10'>
+                        <div className='m-10 pt-8 md:pt-0'>
                             <h1 className="text-2xl mb-4  text-white monument-extended">
                                 AI TOOLS AND MARKET
                             </h1>
@@ -40,10 +40,10 @@ const MarketContainer: React.FC = () => {
                                 manufacturing, and many others.
                             </p>
                         </div>
-                        <img className='w-72' src="./images/hand-image.png" alt="" />
+                        <img className='md:w-72 w-full' src="./images/hand-image.png" alt="" />
                     </div>
-                    <div className='w-full flex flex-row bg-dark-grey mb-10'>
-                        <div className='m-10'>
+                    <div className='w-full md:flex flex-row bg-dark-grey mb-10'>
+                        <div className='m-10 pt-8 md:pt-0'>
                             <h1 className="text-2xl mb-4  text-white monument-extended">
                                 AI, CRYPTO AND NFT MARKET
                             </h1>
@@ -58,7 +58,7 @@ const MarketContainer: React.FC = () => {
                                 and users, paving the way for unprecedented possibilities.
                             </p>
                         </div>
-                        <img className='w-72' src="./images/linear-image.png" alt="" />
+                        <img className='md:w-72 w-full' src="./images/linear-image.png" alt="" />
                     </div>
                 </div>
                 <Footer />

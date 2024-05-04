@@ -3,8 +3,8 @@ import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 
 const VisionContainer: React.FC = () => {
     return (
-        <div className="flex flex-row justify-between">
-            <div className='mt-48'>
+        <div className="flex md:flex-row flex-col justify-between">
+            <div className='mt-48 w-full'>
             <h1 className="text-2xl mb-4 text-white monument-extended">
                     OUR VISION IS TO <br />
                     SUPPORT THE INNOVATION <br />
@@ -16,15 +16,15 @@ const VisionContainer: React.FC = () => {
                 </span>
                 </h1>
                 <span>
-                    <img className='h-28 w-24 top-40 left-56 relative' src='./images/Vector.png' alt='' />
+                    <img className='h-28 w-24 top-40 left-56 relative md:flex hidden' src='./images/Vector.png' alt='' />
                 </span>
             </div>
-            <section className='text-white mt-48 ml-44'>
+            <section className='text-white md:mt-48 md:ml-44 w-full'>
                 <div className='flex flex-row py-10 border-t border-gray-900'>
                     <div>
                         <img className="h-16 w-16 bottom-2 relative" src="./images/profitability.png" alt="Logo" />
                     </div>
-                    <div>
+                    <div className='w-full'>
                         <span className='flex flex-row justify-between'>
                             <p className='pl-6 satoshi-bold'>
                                 Profitability and <br /> Growth
@@ -32,11 +32,11 @@ const VisionContainer: React.FC = () => {
                         <MdOutlineKeyboardArrowDown />
                         </span>
                         <p className='text-xs mt-8 pl-7 satoshi-regular'>
-                            At Creon, we handpick cutting-edge AI projects and <br />
-                            offer our community and token holders early access <br />
-                            and investment opportunities. Our community <br />
-                            actively contributes to the growth and profitability of <br />
-                            these projects, creating a dynamic ecosystem of <br />
+                            At Creon, we handpick cutting-edge AI projects and 
+                            offer our community and token holders early access 
+                            and investment opportunities. Our community 
+                            actively contributes to the growth and profitability of 
+                            these projects, creating a dynamic ecosystem of 
                             innovation and shared success.
                         </p>
                     </div>
