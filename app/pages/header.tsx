@@ -13,7 +13,7 @@ const Header: React.FC = () => {
                 <div className="px-10 lg:px-40">
                     <div className='lg:mt-60 mt-40 overflow-hidden'>
             <h1 className="lg:text-5xl text-3xl mb-4 text-white monument-extended">
-                THE WORLD'S FIRST <br />
+                THE WORLD&apos;S FIRST <br />
                 PLATFORM FOR TOKENIZING <br />
                 AI BLOCKCHAIN PROJECTS
             </h1>
