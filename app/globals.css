@@ -31,3 +31,50 @@ body {
     text-wrap: balance;
   }
 }
+
+
+@font-face {
+  font-family: 'MonumentExtended';
+  src: url('../public/fonts/MonumentExtended-Regular.woff2') format('truetype');
+}
+
+@font-face {
+  font-family: 'Satoshi-Bold';
+  src: url('../public/fonts/Satoshi-Bold.woff2') format('truetype');
+}
+
+@font-face {
+  font-family: 'Satoshi-Medium';
+  src: url('../public/fonts/Satoshi-Medium.woff2') format('truetype');
+}
+
+@font-face {
+  font-family: 'Satoshi-Regular';
+  src: url('../public/fonts/Satoshi-Regular.woff2') format('truetype');
+}
+
+.monument-extended {
+  font-family: 'MonumentExtended', sans-serif;
+}
+
+.satoshi-bold {
+  font-family: 'Satoshi-Bold', sans-serif;
+}
+
+.satoshi-medium {
+  font-family: 'Satoshi-Medium', sans-serif;
+}
+
+.satoshi-regular {
+  font-family: 'Satoshi-Regular', sans-serif;
+}
+
+.gradient-border {
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #3D8BFF, #AB23FF) 1;
+}
+
+.gradient-text {
+  background-image: linear-gradient(to right, #3D8BFF, #AB23FF);
+}
