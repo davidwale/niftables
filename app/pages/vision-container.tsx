@@ -2,6 +2,7 @@
 
 import React, {useState} from 'react';
 import { MdOutlineKeyboardArrowDown, MdOutlineKeyboardArrowUp } from 'react-icons/md';
+import Image from 'next/image';
 
 const VisionContainer: React.FC = () => {
     const [showText, setShowText] = useState(false);
@@ -23,8 +24,9 @@ const VisionContainer: React.FC = () => {
                         PROFITS
                 </span>
                 </h1>
-                <span>
-                    <img className='top-20 left40 relative md:flex hidden' src='./images/creon-logo-img.png' alt='' />
+                
+                <span className='md:flex hidden'>
+                    <Image src='/images/creon-logo-img.png' alt='' width={800} height={800} />
                 </span>
             </div>
             <section className='text-white md:mt-48 md:ml-44 w-full'>
@@ -33,7 +35,7 @@ const VisionContainer: React.FC = () => {
                     onClick={toggleText}
                 >
                     <div>
-                        <img className="h-16 w-16 bottom-2 relative" src="./images/profitability.png" alt="Logo" />
+                        <Image src="/images/profitability.png" alt="" width={80} height={80} />
                     </div>
                     <div className='w-full'>
                         <span className='flex flex-row justify-between'>
@@ -56,7 +58,7 @@ const VisionContainer: React.FC = () => {
                         </div>
                 <div className='flex flex-row py-10 border-t border-gray-900'>
                     <div>
-                        <img className="h-16 w-16 bottom-2 relative" src="./images/transparency.png" alt="Logo" />
+                        <Image src="/images/transparency.png" alt="" width={80} height={80} />
                     </div>
                     <div className='w-full'>
                         <span className='flex flex-row justify-between'>
@@ -69,7 +71,7 @@ const VisionContainer: React.FC = () => {
                 </div>
                 <div className='flex flex-row py-10 border-t border-b border-gray-900'>
                     <div>
-                        <img className="h-16 w-16 bottom-2 relative" src="./images/launch.png" alt="Logo" />
+                        <Image  src="/images/launch.png" alt="Logo" height={80} width={80} />
                     </div>
                     <div className='w-full'>
                         <span className='flex flex-row justify-between'>
@@ -82,7 +84,7 @@ const VisionContainer: React.FC = () => {
                 </div>
                 <div className='flex flex-row py-10  border-b border-gray-900'>
                     <div>
-                        <img className="h-16 w-16 bottom-2 relative" src="./images/limitless.png" alt="Logo" />
+                        <Image  src="/images/limitless.png" alt="" width={80} height={80} />
                     </div>
                     <div className='w-full'>
                         <span className='flex flex-row justify-between'>

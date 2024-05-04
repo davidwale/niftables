@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from 'react';
+import Image from 'next/image'
 import Link from 'next/link';
 
 const Navbar: React.FC = () => {
@@ -16,7 +17,7 @@ const Navbar: React.FC = () => {
                 <div className="flex justify-between h-16 w-full">
                     <div className="flex justify-between w-full">
                         <div className="flex-shrink-0 flex items-center">
-                            <img className="h-8 w-auto" src="./images/logo.png" alt="Logo" />
+                            <Image src="/images/logo.png" alt="Logo" width={80} height={80} />
                         </div>
                         <div className="hidden md:block">
                             <div className="ml-10 mt-4 flex items-baseline space-x-4">
@@ -124,9 +125,9 @@ const Navbar: React.FC = () => {
                     </Link>
                 </div>
                 <span className='flex flex-row ml-5 mt-60 relative bottom-0 gap-5'>
-                    <img src="./images/telegram.png" alt="telegram" />
-                    <img src="./images/discord.png" alt="discord" />
-                    <img src="./images/twitter.png" alt="twitter" />
+                    <Image src="/images/telegram.png" alt="telegram" width={40} height={40} />
+                    <Image src="/images/discord.png" alt="discord" width={40} height={40} />
+                    <Image src="/images/twitter.png" alt="twitter" width={40} height={40} />
                 </span>
             </div>
         </nav>

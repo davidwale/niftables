@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import Footer from "../components/footer";
 
 const MarketContainer: React.FC = () => {
@@ -24,7 +25,7 @@ const MarketContainer: React.FC = () => {
                                 various sectors such as healthcare, finance, and transportation.
                             </p>
                         </div>
-                        <img className='md:w-72 w-full' src="./images/ai-image.png" alt="" />
+                        <Image className='md:w-72 w-full' src="/images/ai-image.png" alt="" width={288} height={288} />
                     </div>
                     <div className='w-full md:flex flex-row bg-dark-grey mb-10'>
                         <div className='m-10 pt-8 md:pt-0'>
@@ -40,7 +41,7 @@ const MarketContainer: React.FC = () => {
                                 manufacturing, and many others.
                             </p>
                         </div>
-                        <img className='md:w-72 w-full' src="./images/hand-image.png" alt="" />
+                        <Image className='md:w-72 w-full' src="/images/hand-image.png" alt="" width={288} height={288} />
                     </div>
                     <div className='w-full md:flex flex-row bg-dark-grey mb-10'>
                         <div className='m-10 pt-8 md:pt-0'>
@@ -58,7 +59,7 @@ const MarketContainer: React.FC = () => {
                                 and users, paving the way for unprecedented possibilities.
                             </p>
                         </div>
-                        <img className='md:w-72 w-full' src="./images/crypto-image.png" alt="" />
+                        <Image className='md:w-72 w-full' src="/images/crypto-image.png" alt="" width={288} height={288} />
                     </div>
                 </div>
                 <Footer />
