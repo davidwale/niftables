@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
 
 
     return (
-        <footer className="flex justify-between text-white font-light z-10 pb-4 text-sm">
+        <footer className="flex justify-between text-white font-light z-10 pb-4 text-sm satoshi-regular">
             <div className='flex flex-row'>
                 © Creon {currentYear}. All Rights Reserved.
                 <span className='flex flex-row ml-5 relative bottom-2 gap-5'>
@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
                 </span>
             </div>
             <div>
-                <p>Powered by <span className='font-bold'>NIFTABLES</span></p>
+                <p>Powered by <span className='font-bold satoshi-bold'>NIFTABLES</span></p>
             </div>
         </footer>
     );

@@ -15,7 +15,7 @@ const MarketContainer: React.FC = () => {
                             <h1 className="text-2xl mb-4  text-white monument-extended">
                                 AI PROSPECTS, MARKET SIZE,AND DEVELOPMENT RACE
                             </h1>
-                            <p className='text-ss text-white mt-8'>
+                            <p className='text-xs text-white mt-8 satoshi-regular'>
                                 The AI market is one of the most dynamically growing areas of technology.
                                 According to reports, the global AI
                                 market is expected to reach $190.61 billion by 2025, with a CAGR (Compound Annual Growth Rate)
@@ -31,7 +31,7 @@ const MarketContainer: React.FC = () => {
                             <h1 className="text-2xl mb-4  text-white monument-extended">
                                 AI TOOLS AND MARKET
                             </h1>
-                            <p className='text-ss text-white mt-8'>
+                            <p className='text-xs text-white mt-8 satoshi-regular'>
                                 AI tools refer to the technologies and software that enable computer systems to
                                 perform tasks usually requiring human intellect. The market for these tools is dynamic
                                 and diverse, encompassing areas such as Natural Language Processing (NLP), machine learning,
@@ -47,7 +47,7 @@ const MarketContainer: React.FC = () => {
                             <h1 className="text-2xl mb-4  text-white monument-extended">
                                 AI, CRYPTO AND NFT MARKET
                             </h1>
-                            <p className='text-ss text-white mt-8'>
+                            <p className='text-xs text-white mt-8 satoshi-regular'>
                                 Artificial Intelligence and blockchain technology are two groundbreaking
                                 areas leading new technological innovations. The combination of these two
                                 technologies creates intriguing possibilities. For instance,

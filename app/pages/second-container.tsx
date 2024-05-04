@@ -5,18 +5,18 @@ const SecondContainer: React.FC = () => {
         <div className="flex flex-col">
             <div className='mt-60'>
             <h1 className="text-5xl mb-4 text-white monument-extended">
-                PROFITING THROUGH
+                PROFITTING THROUGH
             </h1>
-                <p className="bg-clip-text text-transparent gradient-text text-3xl ml-96">
+                <p className="bg-clip-text monument-extended text-transparent gradient-text text-2xl ml-96">
                     AI INNOVATION & DECENTRALIZATION
                 </p>
             </div>
             <section className='text-white self-end max-w-96 mt-48'>
-                <p className='text-sm font-bold mb-4'>
+                <p className='text-sm font-bold satoshi-bold mb-4'>
                     The dynamic community driven <br />
                     business model of the future.
                 </p>
-                <p className='text-xs'>
+                <p className='text-xs satoshi-regular'>
                     At Creon, we blend the power of AI tools with the <br />
                     dynamic crypto and NFT markets, utilizing an <br />
                     innovative business model to drive profitability. <br />

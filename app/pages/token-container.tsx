@@ -5,15 +5,15 @@ const TokenContainer: React.FC = () => {
         <div className='flex flex-row justify-between py-20'>
             <div className='bg-dark-grey w-[320px] pr-8 py-8 rounded-md'>   
                 <div>
-                    <span className='bg-white h-4 relative bottom-11 left-48 rounded-md px-2 text-ss font-bold'>
+                    <span className='bg-white h-4 relative bottom-11 left-48 rounded-md px-2 text-xs font-bold'>
                         COMING SOON
                     </span>
                     <h1 className="text-3xl mb-4 ml-8 text-white monument-extended">TOKEN</h1>
-                    <p className=' ml-8 text-sm mb-9 bg-clip-text text-transparent gradient-text'>
+                    <p className=' ml-8 text-sm mb-9 bg-clip-text text-transparent gradient-text satoshi-bold'>
                         The Gateway token to the world of AI
                     </p>
                 <img src='./images/token-image.png' alt='' />
-                <p className='text-ss text-white ml-8 mt-8'>
+                <p className='text-xs text-white ml-8 mt-8 satoshi-regular'>
                     Set to debut in the latter half of 2024, the CREON <br />
                     token serves as the pioneering link between <br />
                     cutting-edge AI initiatives and blockchain <br />
@@ -26,15 +26,15 @@ const TokenContainer: React.FC = () => {
             </div>
             <div className='bg-dark-grey w-[320px] pr-8 py-8 rounded-md'>
                 <div>
-                    <span className='bg-white h-4 relative bottom-11 left-48 rounded-md px-2 text-ss font-bold'>
+                    <span className='bg-white h-4 relative bottom-11 left-48 rounded-md px-2 text-xs font-bold'>
                         COMING SOON
                     </span>
                     <h1 className="text-3xl mb-4 ml-8 text-white monument-extended">REVENUE</h1>
-                    <p className='text-sm ml-8 mb-4 bg-clip-text text-transparent gradient-text'>
+                    <p className='text-sm ml-8 mb-4 bg-clip-text text-transparent gradient-text satoshi-bold'>
                         Driving Income and growth through decentralization
                     </p>
                 <img src='./images/token-image.png' alt='' />
-                <p className='text-ss text-white ml-8 mt-8'>
+                <p className='text-xs text-white ml-8 mt-8 satoshi-regular'>
                     CREON NFT and token holders are integral <br />
                     participants in the profit-sharing from our  <br />
                     launched AI-based enterprises. We support the <br />
@@ -47,15 +47,15 @@ const TokenContainer: React.FC = () => {
             </div>
             <div className='bg-dark-grey w-[320px] pr-8 py-8 rounded-md'>
                 <div>
-                    <span className='bg-white h-4 relative bottom-11 left-48 rounded-md px-2 text-ss font-bold'>
+                    <span className='bg-white h-4 relative bottom-11 left-48 rounded-md px-2 text-xs font-bold'>
                             COMING SOON
                         </span>
                 <h1 className="text-3xl mb-4 ml-8 text-white monument-extended">LAUNCHPAD</h1>
-                    <p className='text-sm ml-8 mb-9 bg-clip-text text-transparent gradient-text'>
+                    <p className='text-sm ml-8 mb-9 bg-clip-text text-transparent gradient-text satoshi-bold'>
                         Driving the future of AI innovation
                     </p>
                 <img src='./images/token-image.png' alt='' />
-                <p className='text-ss text-white ml-8 mt-8'>
+                <p className='text-xs text-white ml-8 mt-8 satoshi-regular'>
                     The CREON AI launched an essential <br />
                     component of our initiative, represents a <br />
                     groundbreaking opportunity in the realm of AI  <br />

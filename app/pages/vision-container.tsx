@@ -26,12 +26,12 @@ const VisionContainer: React.FC = () => {
                     </div>
                     <div>
                         <span className='flex flex-row justify-between'>
-                            <p className='pl-6'>
+                            <p className='pl-6 satoshi-bold'>
                                 Profitability and <br /> Growth
                             </p>
                         <MdOutlineKeyboardArrowDown />
                         </span>
-                        <p className='text-xs mt-8 pl-7'>
+                        <p className='text-xs mt-8 pl-7 satoshi-regular'>
                             At Creon, we handpick cutting-edge AI projects and <br />
                             offer our community and token holders early access <br />
                             and investment opportunities. Our community <br />
@@ -47,7 +47,7 @@ const VisionContainer: React.FC = () => {
                     </div>
                     <div className='w-full'>
                         <span className='flex flex-row justify-between'>
-                            <p className='pl-6'>
+                            <p className='pl-6 satoshi-bold'>
                                 Transparent & fair Decentralized <br /> Earnings
                             </p>
                             <MdOutlineKeyboardArrowDown />
@@ -60,7 +60,7 @@ const VisionContainer: React.FC = () => {
                     </div>
                     <div className='w-full'>
                         <span className='flex flex-row justify-between'>
-                            <p className='pl-6'>
+                            <p className='pl-6 satoshi-bold'>
                                 Launching the <br /> future
                             </p>
                             <MdOutlineKeyboardArrowDown />
@@ -73,7 +73,7 @@ const VisionContainer: React.FC = () => {
                     </div>
                     <div className='w-full'>
                         <span className='flex flex-row justify-between'>
-                            <p className='pl-6'>
+                            <p className='pl-6 satoshi-bold'>
                                 Limitless Possibilities of AI <br /> & crypto
                             </p>
                             <MdOutlineKeyboardArrowDown />
