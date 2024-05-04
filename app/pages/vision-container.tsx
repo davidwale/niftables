@@ -28,7 +28,10 @@ const VisionContainer: React.FC = () => {
                 </span>
             </div>
             <section className='text-white md:mt-48 md:ml-44 w-full'>
-                <div className='flex flex-row py-10 border-t border-gray-900 hover:cursor-pointer' onClick={toggleText}>
+                <div
+                    className='flex flex-row py-10 border-t border-gray-900 hover:cursor-pointer'
+                    onClick={toggleText}
+                >
                     <div>
                         <img className="h-16 w-16 bottom-2 relative" src="./images/profitability.png" alt="Logo" />
                     </div>
