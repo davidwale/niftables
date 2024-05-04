@@ -1,9 +1,10 @@
 import React from 'react';
+import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 
 const VisionContainer: React.FC = () => {
     return (
-        <div className="flex flex-row">
-            <div className='mt-48 ml-40'>
+        <div className="flex flex-row justify-between">
+            <div className='mt-48'>
             <h1 className="text-2xl mb-4 text-white monument-extended">
                     OUR VISION IS TO <br />
                     SUPPORT THE INNOVATION <br />
@@ -24,11 +25,11 @@ const VisionContainer: React.FC = () => {
                         <img className="h-16 w-16 bottom-2 relative" src="./images/profitability.png" alt="Logo" />
                     </div>
                     <div>
-                        <span>
+                        <span className='flex flex-row justify-between'>
                             <p className='pl-6'>
                                 Profitability and <br /> Growth
                             </p>
-
+                        <MdOutlineKeyboardArrowDown />
                         </span>
                         <p className='text-xs mt-8 pl-7'>
                             At Creon, we handpick cutting-edge AI projects and <br />
@@ -44,12 +45,12 @@ const VisionContainer: React.FC = () => {
                     <div>
                         <img className="h-16 w-16 bottom-2 relative" src="./images/transparency.png" alt="Logo" />
                     </div>
-                    <div>
-                        <span>
+                    <div className='w-full'>
+                        <span className='flex flex-row justify-between'>
                             <p className='pl-6'>
                                 Transparent & fair Decentralized <br /> Earnings
                             </p>
-
+                            <MdOutlineKeyboardArrowDown />
                         </span>
                     </div>
                 </div>
@@ -57,12 +58,12 @@ const VisionContainer: React.FC = () => {
                     <div>
                         <img className="h-16 w-16 bottom-2 relative" src="./images/launch.png" alt="Logo" />
                     </div>
-                    <div>
-                        <span>
+                    <div className='w-full'>
+                        <span className='flex flex-row justify-between'>
                             <p className='pl-6'>
                                 Launching the <br /> future
                             </p>
-
+                            <MdOutlineKeyboardArrowDown />
                         </span>
                     </div>
                 </div>
@@ -70,12 +71,12 @@ const VisionContainer: React.FC = () => {
                     <div>
                         <img className="h-16 w-16 bottom-2 relative" src="./images/limitless.png" alt="Logo" />
                     </div>
-                    <div>
-                        <span>
+                    <div className='w-full'>
+                        <span className='flex flex-row justify-between'>
                             <p className='pl-6'>
                                 Limitless Possibilities of AI <br /> & crypto
                             </p>
-
+                            <MdOutlineKeyboardArrowDown />
                         </span>
                     </div>
                 </div>

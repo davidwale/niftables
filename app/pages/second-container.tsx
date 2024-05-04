@@ -3,7 +3,7 @@ import React from 'react';
 const SecondContainer: React.FC = () => {
     return (
         <div className="flex flex-col">
-            <div className='mt-60 ml-40'>
+            <div className='mt-60'>
             <h1 className="text-5xl mb-4 text-white monument-extended">
                 PROFITING THROUGH
             </h1>
@@ -11,7 +11,7 @@ const SecondContainer: React.FC = () => {
                     AI INNOVATION & DECENTRALIZATION
                 </p>
             </div>
-            <section className='text-white self-end mr-52 max-w-96 mt-48'>
+            <section className='text-white self-end max-w-96 mt-48'>
                 <p className='text-sm font-bold mb-4'>
                     The dynamic community driven <br />
                     business model of the future.

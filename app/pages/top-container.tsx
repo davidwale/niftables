@@ -3,7 +3,7 @@ import React from 'react';
 const TopContainer: React.FC = () => {
     return (
         <div className="flex flex-col">
-            <div className='mt-60 ml-40'>
+            <div className='mt-60'>
             <h1 className="text-5xl mb-4 text-white monument-extended">
                 THE WORLD'S FIRST <br />
                 PLATFORM FOR TOKENIZING <br />
@@ -16,16 +16,16 @@ const TopContainer: React.FC = () => {
             <hr className="border-2 gradient-border w-[30.5rem]" />
             </div>
             <div className='mt-48'>
-                <h1 className="text-5xl mb-4 text-white monument-extended ml-40">
+                <h1 className="text-5xl mb-4 text-white monument-extended">
                     CREON PASS <br />
                     NFT
                 </h1>
-                <p className='bg-clip-text text-transparent gradient-text my-16 ml-40'>
+                <p className='bg-clip-text text-transparent gradient-text my-16'>
                     The Creon NFT pass unlocks access to AI projects, the Creon <br />
                     launchpad, and a ticket to generate passive income through AI- <br />
                     driven tools
                 </p>
-                <div className='ml-[10rem]'>
+                <div>
                     <span className='block'>
                     <p className='mb-5 p-2.5 border-2 rounded-md text-white border-zinc-900 inline-block text-sm'>Pre-launch investment opportunities for upcoming AI projects</p> <br />
                     <p className='mb-5 p-2.5 border-2 rounded-md text-white border-zinc-900 inline-block text-sm'>Free and early access to Creon built AI projects</p><br />
