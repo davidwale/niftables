@@ -4,7 +4,7 @@ import Footer from "../components/footer";
 const MarketContainer: React.FC = () => {
     return (
         <div>
-            <div className="relative px-10 lg:px-40 pt-20">
+            <div className="relative bg-black px-10 lg:px-40 pt-20">
                 <video autoPlay loop muted className="absolute inset-0 w-full h-full object-cover opacity-20">
                     <source src="./videos/roadmap-video.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
