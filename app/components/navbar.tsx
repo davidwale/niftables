@@ -21,18 +21,35 @@ const Navbar: React.FC = () => {
                         <div className="hidden md:block">
                             <div className="ml-10 mt-4 flex items-baseline space-x-4">
                                 <Link href="/">
-                                    <p className="text-white px-3 py-2 rounded-md text-sm font-medium">Home</p>
+                                    <p className="text-white px-3 py-2 rounded-md text-sm font-medium">Creon Pass</p>
                                 </Link>
                                 <Link href="/about">
-                                    <p className="text-white px-3 py-2 rounded-md text-sm font-medium">About</p>
+                                    <p className="text-white px-3 py-2 rounded-md text-sm font-medium">
+                                        Token
+                                        <span className='text-ss ml-1 px-2 relative bottom-2 text-purple-500 bg-black rounded-md '>
+                                            SOON
+                                        </span>
+                                    </p>
                                 </Link>
                                 <Link href="/services">
-                                    <p className="text-white px-3 py-2 rounded-md text-sm font-medium">Services</p>
+                                    <p className="text-white px-3 py-2 rounded-md text-sm font-medium">
+                                        AI Revenue
+                                    <span className='text-ss ml-1 px-2 relative bottom-2 text-purple-500 bg-black rounded-md '>
+                                        SOON
+                                    </span>
+                                    </p>
                                 </Link>
                                 <Link href="/contact">
-                                    <p className="text-white px-3 py-2 rounded-md text-sm font-medium">Contact</p>
+                                    <p className="text-white px-3 py-2 rounded-md text-sm font-medium">
+                                        AI Launchpad
+                                    <span className='text-ss ml-1 px-2 relative bottom-2 text-purple-500 bg-black rounded-md '>
+                                        SOON
+                                    </span>
+                                    </p>
                                 </Link>
-                                <button className='text-white rounded-md border-2 border-white px-7 py-2 text-sm'>Connect</button>
+                                <button className='text-white rounded-md border-2 border-white px-7 py-2 text-sm'>
+                                    Connect
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -56,7 +73,7 @@ const Navbar: React.FC = () => {
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7"></path>
                             </svg>
                             <svg
-                                className={`${isMobileMenuOpen ? 'block' : 'hidden'} h-6 w-6`}
+                                className={`${isMobileMenuOpen ? 'block' : 'hidden'} h-8 w-8 mt-4 text-white bg-sky-500 rounded-md`}
                                 xmlns="http://www.w3.org/2000/svg"
                                 fill="none"
                                 viewBox="0 0 24 24"
@@ -72,20 +89,45 @@ const Navbar: React.FC = () => {
 
             {/* Mobile menu */}
             <div className={`${isMobileMenuOpen ? 'block' : 'hidden'} md:hidden h-screen top-0 right-0 fixed w-1/2 bg-black`} id="mobile-menu">
-                <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <div className="pt-2 pl-3 pb-3 space-y-1 sm:px-3">
+                    <button className='text-white rounded-md border-2 border-white mx-2 my-3 px-7 py-2 text-sm'>
+                        Connect
+                    </button>
                     <Link href="/">
-                        <p className="text-white block px-3 py-2 rounded-md text-base font-medium">Home</p>
+                        <p className="text-white block px-3 py-4 border-t border-gray-900 text-base font-medium">
+                            Creon Pass
+                        </p>
                     </Link>
-                    <Link href="/about">
-                        <p className="text-white block px-3 py-2 rounded-md text-base font-medium">About</p>
+                    <Link href="/">
+                        <p className="text-white block px-3 py-4 border-t border-gray-900 text-base font-medium">
+                            Token
+                        <span className='text-ss ml-1 px-2 relative bottom-2 text-purple-500 bg-black rounded-md '>
+                            SOON
+                        </span>
+                        </p>
                     </Link>
-                    <Link href="/services">
-                        <p className="text-white block px-3 py-2 rounded-md text-base font-medium">Services</p>
+                    <Link href="/">
+                        <p className="text-white block px-3 py-4 border-t border-b border-gray-900 text-base font-medium">
+                            AI Revenue
+                        <span className='text-ss ml-1 px-2 relative bottom-2 text-purple-500 bg-black rounded-md '>
+                            SOON
+                        </span>
+                        </p>
                     </Link>
-                    <Link href="/contact">
-                        <p className="text-white block px-3 py-2 rounded-md text-base font-medium">Contact</p>
+                    <Link href="/">
+                        <p className="text-white block px-3 py-4 border-b border-gray-900 text-base font-medium">
+                            AI Launchpad
+                        <span className='text-ss ml-1 px-2 relative bottom-2 text-purple-500 bg-black rounded-md '>
+                            SOON
+                        </span>
+                        </p>
                     </Link>
                 </div>
+                <span className='flex flex-row ml-5 mt-60 relative bottom-0 gap-5'>
+                    <img src="./images/telegram.png" alt="telegram" />
+                    <img src="./images/discord.png" alt="discord" />
+                    <img src="./images/twitter.png" alt="twitter" />
+                </span>
             </div>
         </nav>
     );
