@@ -13,7 +13,10 @@ const VisionContainer: React.FC = () => {
                         AND DEMOCRATIZING <br />
                         PROFITS
                 </span>
-            </h1>
+                </h1>
+                <span>
+                    <img className='h-28 w-24 top-40 left-56 relative' src='./images/Vector.png' alt='' />
+                </span>
             </div>
             <section className='text-white mt-48 ml-44'>
                 <div className='flex flex-row py-10 border-t border-gray-900'>
