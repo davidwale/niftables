@@ -10,7 +10,7 @@ const TokenContainer: React.FC = () => {
                     </span>
                     <h1 className="text-3xl mb-4 ml-8 text-white monument-extended">TOKEN</h1>
                     <p className=' ml-8 text-sm mb-9 bg-clip-text text-transparent gradient-text'>
-                        The Gateway taken to the world of AI
+                        The Gateway token to the world of AI
                     </p>
                 <img src='./images/token-image.png' alt='' />
                 <p className='text-ss text-white ml-8 mt-8'>

@@ -17,6 +17,7 @@ const config: Config = {
         'ss': '0.7rem', 
       },
       backgroundColor: {
+        'dark-grey-opacity': 'rgba(12, 14, 16, 0.5)',
         'dark-grey': 'rgb(12 14 16)', 
       },
     },

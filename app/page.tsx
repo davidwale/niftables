@@ -3,6 +3,7 @@ import TopContainer from "./pages/top-container";
 import SecondContainer from "./pages/second-container";
 import VisionContainer from "./pages/vision-container";
 import TokenContainer from "./pages/token-container";
+import MarketContainer from "./pages/market-container";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <VisionContainer />
       <TokenContainer />
       </div>
+      <MarketContainer />
     </div>
   );
 }
